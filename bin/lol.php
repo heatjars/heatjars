@@ -4,8 +4,8 @@ use Ratchet\Http\HttpServer;
 use Ratchet\WebSocket\WsServer;
 use MyApp\Chat;
 
-    require '/var/www/vendor/autoload.php';
-    require '/var/www/src/chat.php';
+    require '/heatjars/vendor/autoload.php';
+    require '/heatjars/src/chat.php';
 
     $server = IoServer::factory(
         new HttpServer(
