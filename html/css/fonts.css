@@ -1,0 +1,39 @@
+#butt {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+hr { 
+  display: block; 
+  height: 1px;
+  border: 0; 
+  border-top: 1px solid black;
+  margin: 1em 0; 
+  padding: 0; }
+#HW {
+  position: absolute;
+  right:    0;
+  bottom:   0;
+  position: fixed;
+  }
+/* WIORKZOMG*/
+body {
+  text-align: left;
+  font-weight: normal;
+  color: #000;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 13pt;
+    }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.postbox {
+  width: 845px;
+  padding:20px;
+  margin-bottom:4px;
+  background-color: #fff;
+  border-radius: 4px;
+}
