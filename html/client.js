@@ -1,5 +1,5 @@
 /*Written by Dizzle/heatjars*/
-var conn = new WebSocket('ws://'+this.document.location.hostname+':8080');
+var conn = new WebSocket('wss://'+this.document.location.hostname+':8080');
 conn.onopen = function(e) {
     console.log("Connection established!");
 };
